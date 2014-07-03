@@ -4,14 +4,21 @@
  * and open the template in the editor.
  */
 
-package core;
+package core.lists;
 
+import core.Competitor;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  *
  * @author pika
  */
-class Rounds {
-    private List<Round> rounds;
+public class AttendeList {
+    private Set<Competitor> attendies;
+    
+    public AttendeList() {
+        attendies = new TreeSet<>();
+    }
 }

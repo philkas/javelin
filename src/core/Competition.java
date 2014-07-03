@@ -6,12 +6,17 @@
 
 package core;
 
-import java.util.List;
+import core.lists.ResultList;
+import core.lists.StartingList;
 
 /**
  *
  * @author pika
  */
-class Rounds {
-    private List<Round> rounds;
+public class Competition {
+    private StartingList startingList;
+    
+    public ResultList getResultList() {
+        return null;
+    }
 }

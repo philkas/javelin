@@ -6,12 +6,10 @@
 
 package core;
 
-import java.util.List;
-
 /**
  *
  * @author pika
  */
-class Rounds {
-    private List<Round> rounds;
+public class Competitor {
+    
 }

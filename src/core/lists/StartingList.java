@@ -4,14 +4,12 @@
  * and open the template in the editor.
  */
 
-package core;
-
-import java.util.List;
+package core.lists;
 
 /**
  *
  * @author pika
  */
-class Rounds {
-    private List<Round> rounds;
+public class StartingList extends AttendeList {
+    
 }

@@ -4,14 +4,13 @@
  * and open the template in the editor.
  */
 
-package core;
-
-import java.util.List;
+package core.interfaces;
 
 /**
  *
  * @author pika
  */
-class Rounds {
-    private List<Round> rounds;
+public interface CompetitorID {
+    public String getID();
+    public void setID(String id);
 }

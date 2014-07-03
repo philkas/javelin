@@ -4,14 +4,15 @@
  * and open the template in the editor.
  */
 
-package core;
+package core.interfaces;
 
-import java.util.List;
+import core.lists.AttendeList;
+import core.Round;
 
 /**
  *
  * @author pika
  */
-class Rounds {
-    private List<Round> rounds;
+public interface QualificationRule {
+    public AttendeList applyRule(final Round round);
 }
