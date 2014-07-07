@@ -9,8 +9,9 @@ package core.interfaces;
 /**
  *
  * @author pika
+ * @param <T>
  */
-public interface CompetitorID {
+public interface CompetitorID<T> extends Comparable<T> {
     public String getID();
     public void setID(String id);
 }
