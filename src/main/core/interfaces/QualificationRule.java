@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-package core.interfaces;
+package main.core.interfaces;
 
-import core.lists.AttendeList;
-import core.Round;
+import main.core.lists.AttendeList;
+import main.core.Round;
 
 /**
  *

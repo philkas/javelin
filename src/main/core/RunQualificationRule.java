@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-package core;
+package main.core;
 
-import core.lists.AttendeList;
-import core.interfaces.QualificationRule;
+import main.core.lists.AttendeList;
+import main.core.interfaces.QualificationRule;
 
 /**
  *

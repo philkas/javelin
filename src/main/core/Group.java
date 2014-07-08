@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package core;
+package main.core;
 
 /**
  *
  * @author pika
  */
-public class SingleEvent extends Event {
-    private Rounds round;
+public class Group {
+    
 }

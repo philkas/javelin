@@ -4,10 +4,10 @@
  * and open the template in the editor.
  */
 
-package core;
+package main.core;
 
-import core.lists.ResultList;
-import core.lists.StartingList;
+import main.core.lists.ResultList;
+import main.core.lists.StartingList;
 
 /**
  *

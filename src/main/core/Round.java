@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package core;
+package main.core;
 
 import java.util.Iterator;
 import java.util.List;

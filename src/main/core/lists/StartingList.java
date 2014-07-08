@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package core;
+package main.core.lists;
 
 /**
  *
  * @author pika
  */
-public class Group {
+public class StartingList extends AttendeList {
     
 }

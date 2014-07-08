@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package core.lists;
+package main.core;
 
 /**
  *
  * @author pika
  */
-public class ResultList {
+public class AllAroundEvent extends Event {
     
 }

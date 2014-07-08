@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package core;
+package main.core;
 
-import core.interfaces.CompetitorID;
+import main.core.interfaces.CompetitorID;
 
 /**
  *
