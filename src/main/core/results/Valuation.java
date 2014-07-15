@@ -4,20 +4,17 @@
  * and open the template in the editor.
  */
 
-package main.core.lists;
+package main.core.results;
 
+import java.util.List;
 import java.util.Map;
 import main.core.interfaces.CompetitorID;
-import main.core.results.AbstractResult;
+import main.core.lists.ResultList;
 
 /**
  *
  * @author pika
  */
-public class ResultList {
-    private Map< CompetitorID, AbstractResult > results;
-    
-    public Map<CompetitorID, AbstractResult> getResultMap() {
-        return this.results;
-    }
+public interface Valuation {
+    public List<Map.Entry<CompetitorID, AbstractResult>> evaluate(final ResultList resultList);
 }

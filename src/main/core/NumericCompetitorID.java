@@ -47,4 +47,9 @@ public class NumericCompetitorID implements CompetitorID<NumericCompetitorID> {
         return this.id - o.id;
     }
     
+    @Override
+    public int hashCode() {
+        return Integer.hashCode(this.id);
+    }
+    
 }
